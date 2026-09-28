@@ -9,7 +9,7 @@ Each answer adds points to six traits (Logic, Technical, Creativity, People, Lea
 Every field/career has its own trait profile, and the engine ranks them by cosine similarity.
 The top match is highlighted and the next best are listed too. Results are saved in `localStorage`. No backend.
 Send `traits` + top matches to an LLM API for a personalized explanation option.
-
+website link: https://myway-ochre.vercel.app/
 ## Run
 
 ```bash
@@ -24,7 +24,7 @@ React + Vite, Tailwind CSS v4, Framer Motion, Lucide, Recharts, React Router (Ha
 ```
 src/
   components/  Navbar, ProgressBar, QuestionCard, ResultCard, SkillTag
-  data/        traits, questions, universityFields, careers   <- edit these to tune results
+  data/        traits, questions, universityFields, careers   
   pages/       Home, Quiz (university + career), Results
   utils/       recommendationEngine.js
 ```
