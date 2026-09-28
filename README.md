@@ -8,6 +8,7 @@ A one-question-per-screen quiz that points you somewhere:
 Each answer adds points to six traits (Logic, Technical, Creativity, People, Leadership, Research).
 Every field/career has its own trait profile, and the engine ranks them by cosine similarity.
 The top match is highlighted and the next best are listed too. Results are saved in `localStorage`. No backend.
+Send `traits` + top matches to an LLM API for a personalized explanation option.
 
 ## Run
 
@@ -29,6 +30,5 @@ src/
 ```
 
 ## Ideas for V2
-- Send `traits` + top matches to an LLM API for a personalized explanation
 - Country-specific university programs
 - Shareable result link, i18n (Arabic / French / English)
